@@ -18,7 +18,6 @@ void main(){
     clock_t start,end;
     double cpu_time_used;
 
-
      FILE* file;
 
     file = fopen("E:/DAA/lab_5/worst_case.txt","r");
@@ -37,5 +36,4 @@ void main(){
     printf("%f",cpu_time_used);
 
     fclose(file);
-
 }
