@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Isolated",
+      "request": "launch",
+      "mainClass": "Isolated",
+      "projectName": "DAA_79061aea"
+    },
+    {
+      "type": "java",
+      "name": "Adj_metrix",
+      "request": "launch",
+      "mainClass": "Adj_metrix",
+      "projectName": "DAA_79061aea"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

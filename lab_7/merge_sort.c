@@ -21,6 +21,7 @@ void merge(int arr[],int l,int m,int r){
      k = l;
 
      while (j < size2 && i < size1)
+     
      {
         if(temp1[i] <= temp2[j]){
             arr[k] = temp1[i];
