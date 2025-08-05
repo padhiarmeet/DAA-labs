@@ -51,6 +51,4 @@ void main(){
 
     qsort(edges, sizeof(edges) / sizeof(edges[0]), sizeof(struct Edge), comparator);
 
-    
-
 }
