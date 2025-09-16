@@ -10,7 +10,7 @@ void main(){
     double cpu_time_used;
 
 
-     FILE* file;
+    FILE* file;
 
     file = fopen("worst_case.txt","r");
 

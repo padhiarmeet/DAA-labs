@@ -43,7 +43,7 @@ int main(){
     selectionSort(arr,100000);
     end = clock();
 
-    cpu_time_used = ((double) (end - start) / CLOCKS_PER_SEC);
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("%f",cpu_time_used);
 
     fclose(file);
